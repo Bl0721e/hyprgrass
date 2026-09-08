@@ -598,7 +598,7 @@ bool GestureManager::onTouchDown(ITouch::SDownEvent ev) {
         }
     );
 
-    g_pInputManager->refocus();
+//    g_pInputManager->refocus();
 
     if (this->m_sGestureState.fingers.size() == 0) {
         this->touchedResources.clear();
